@@ -157,6 +157,7 @@ export const translations = {
       successDesc:
         "Hurmatli {name}, arizangiz muvaffaqiyatli yuborildi. Jamoamiz 24 soat ichida {phone} raqamiga bog'lanadi.",
       newFormBtn: "Yangi ariza yuborish",
+      tgBtn: "Telegram bot orqali yozilish",
       errors: {
         nameRequired: "Ismingizni kiriting",
         nameMin: "Ism kamida 2 ta harf bo'lishi kerak",
@@ -325,6 +326,7 @@ export const translations = {
       successDesc:
         "Уважаемый(ая) {name}, ваша заявка успешно отправлена. Наша команда свяжется с вами по номеру {phone} в течение 24 часов.",
       newFormBtn: "Новая заявка",
+      tgBtn: "Записаться через Telegram бот",
       errors: {
         nameRequired: "Введите ваше имя",
         nameMin: "Имя должно содержать минимум 2 символа",
@@ -491,6 +493,7 @@ export const translations = {
       successDesc:
         "Dear {name}, your application has been successfully submitted. Our team will contact you at {phone} within 24 hours.",
       newFormBtn: "New Application",
+      tgBtn: "Enroll via Telegram bot",
       errors: {
         nameRequired: "Please enter your name",
         nameMin: "Name must be at least 2 characters",

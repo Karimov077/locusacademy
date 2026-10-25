@@ -43,9 +43,11 @@ export default async function handler(req, res) {
     return res.status(400).json({ success: false, message: "Kurs tanlanmagan." });
   }
 
-  // Environment variables tekshiruvi
-  const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-  const CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+  // Environment variables tekshiruvi (fallback bilan)
+  const BOT_TOKEN =
+    process.env.TELEGRAM_BOT_TOKEN || '8575110002:AAF1T5Nb2qCp7XnZcpkrIEjJsChFmlitAkE';
+  const CHAT_ID =
+    process.env.TELEGRAM_CHAT_ID || '-1004417957029';
 
   if (!BOT_TOKEN || !CHAT_ID) {
     console.error('[Lokus Academy] TELEGRAM_BOT_TOKEN yoki TELEGRAM_CHAT_ID sozlanmagan.');
